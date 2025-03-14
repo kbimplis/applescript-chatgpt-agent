@@ -1,0 +1,58 @@
+
+
+write me an applescript script that will open a new chrome tab to chatgpt.com and ask for a python hello world program
+
+I want you to update the script to save the output script to a file called python.py
+
+rewrite the above for Safari
+
+
+make it read the input to paste to chatgpt from a file in desktop called prompt.txt
+
+don't type the prompt into the page. Copy paste it instead
+
+You have to wait for the chatgpt reply to finish before saving into a file. Usually when the reply is done this set of elements appear:
+
+<div tabindex="0" class="mb-2 flex gap-3 -ml-2"><div class="flex items-center justify-start rounded-xl p-1"><div class="flex items-center" style="opacity: 1; will-change: auto;"><span class="" data-state="closed"><button class="rounded-lg text-token-text-secondary hover:bg-token-main-surface-secondary" aria-label="Copy" data-testid="copy-turn-action-button"><span class="flex h-[30px] w-[30px] items-center justify-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-md-heavy"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg></span></button></span><div class="flex"><span class="" data-state="closed"><button class="rounded-lg text-token-text-secondary hover:bg-token-main-surface-secondary" aria-label="Good response" data-testid="good-response-turn-action-button"><span class="flex h-[30px] w-[30px] items-center justify-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-md-heavy"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.1318 2.50389C12.3321 2.15338 12.7235 1.95768 13.124 2.00775L13.5778 2.06447C16.0449 2.37286 17.636 4.83353 16.9048 7.20993L16.354 8.99999H17.0722C19.7097 8.99999 21.6253 11.5079 20.9313 14.0525L19.5677 19.0525C19.0931 20.7927 17.5124 22 15.7086 22H6C4.34315 22 3 20.6568 3 19V12C3 10.3431 4.34315 8.99999 6 8.99999H8C8.25952 8.99999 8.49914 8.86094 8.6279 8.63561L12.1318 2.50389ZM10 20H15.7086C16.6105 20 17.4008 19.3964 17.6381 18.5262L19.0018 13.5262C19.3488 12.2539 18.391 11 17.0722 11H15C14.6827 11 14.3841 10.8494 14.1956 10.5941C14.0071 10.3388 13.9509 10.0092 14.0442 9.70591L14.9932 6.62175C15.3384 5.49984 14.6484 4.34036 13.5319 4.08468L10.3644 9.62789C10.0522 10.1742 9.56691 10.5859 9 10.8098V19C9 
+
+
+I get no code found. 
+The html code for the chatgpt output I wanted to save was: 
+
+<div data-message-author-role="assistant" data-message-id="b50e6405-7317-4e76-a344-6580da803893" dir="auto" class="min-h-8 text-message relative flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" data-message-model-slug="gpt-4o"><div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"><div class="markdown prose w-full break-words dark:prose-invert light"><p data-start="0" data-end="189">Sure! Below is a <strong data-start="17" data-end="41">detailed study guide</strong> based on the transcript. This guide distills all key concepts, theories, and ideas mentioned in a structured, easy-to-read, and memorable format.</p>
+<hr data-start="191" data-end="194">
+<h1 data-start="196" data-end="262"><strong data-start="198" data-end="262">Study Guide: NLP, Timeline Therapy &amp; Personal Transformation</strong></h1>
+<h2 data-start="264" data-end="302"><strong data-start="267" data-end="302">1. Introduction to NLP Training</strong></h2>
+<ul data-start="303" data-end="1167">
+<li data-start="303" data-end="529">
+<p data-start="305" data-end="332"><strong data-start="305" data-end="330">Setting &amp; Background:</strong></p>
+<ul data-start="335" data-end="529">
+<li data-start="335" data-end="416">The training was recorded in <strong data-start="366" data-end="387">Sydney, Australia</strong>, near the <strong data-start="398" data-end="415">Harbor Bridge</strong>.</li>
+<li data-start="419" data-end="478">The event was a <strong data-start="437" data-end="469">Master Practitioner Training</strong> for NLP.</li>
+<li data-start="481" data-end="529">The audience was <strong data-start="500" data-end="528">engaged and enthusiastic</strong>.</li>
+</ul>
+</li>
+<li data-start="531" data-end="1167">
+<p data-start="533" data-end="555"><strong data-start="533" data-end="553">Main Presenters:</strong></p>
+<ul data-start="558" data-end="1167">
+<li data-start="558" data-end="795">
+<p data-start="560" data-end="575"><strong data-start="560" data-end="573">Tad James</strong></p>
+<ul data-start="580" data-end="795">
+<li data-start="580" data-end="635">Second person to be made an NLP <strong data-start="614" data-end="632">Master Trainer</strong>.</li>
+
+
+Perfect. I want the save file to be output.md and I want you to save the chatgpt in markdown format. 
+
+output is saved in simple text. Markdown format from answer is not preserved. 
+
+
+I want to be able to drag and drop a file (.txt .srt .md)  or folder onto my applescript on a special window and I want each .txt or .srt or .md file in the folder to be used in place of prompt.txt. So the script will open a new tab for each file, paste the contents into chatgpt, get the output from chatgpt, write it to a file with the same name as the source file adding the postfix -done in a new folder called "processed" and then move to the next file, open a new tab and so on. Make sure that the script does not pop up a window that it is done after each file so all files can be processed without user interference.
+
+
+
+
+
+
+
+
+I want to be able to drag and drop a file (.txt .srt .md)  or folder onto my applescript on a special window and I want each .txt or .srt or .md file in the folder to be used in place of prompt.txt. So the script will open a new tab for each file, paste the contents into chatgpt, get the output from chatgpt, write it to a file with the same name as the source file adding the postfix -done in a new folder called "processed" and then move to the next file, open a new tab and so on. Make sure that the script does not pop up a window that it is done after each file so all files can be processed without user interference.
